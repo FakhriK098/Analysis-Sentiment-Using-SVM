@@ -3,7 +3,7 @@ This is my final task to get bachelor degree. This system can classify sentiment
 
 ## The Flow System
 
-
+![Arsitektur - Copy-alur sistem](https://user-images.githubusercontent.com/71368358/125415212-9e47af68-4291-4bd0-a70e-0cdfcfcb279c.jpg)
 
 ## Analysis Sentimen.py
 
@@ -21,6 +21,8 @@ The code in this file is use for connection to database. In this case I use MySQ
 - Result the trainning machine learning
 
 ## Preprocessing.py
+
+![Arsitektur - Copy-Contoh Preprocessing](https://user-images.githubusercontent.com/71368358/125415356-a359d934-66c1-4480-a888-4d104560b514.jpg)
 
 The code in this file is use for preprocessing text before the machine learning to classification. The library that I use is Sastrawi. The process of preprocessing are:
 - Tokenizing
@@ -42,3 +44,17 @@ The code in this file is use for preprocessing text before the machine learning 
 ## TFIDF.py
 
 The code in this file is use to vectorization the term. This system use Term Frequency - Inverse Document Frequency (TF-IDF) algorithm
+
+- The formula for Term Frequency
+
+![1_RL68ajkTXoWnUaK3hOLTew](https://user-images.githubusercontent.com/71368358/125415900-970972d3-5bf6-41b5-851f-44943061bbcb.png)
+
+(source : https://miro.medium.com/max/875/1*RL68ajkTXoWnUaK3hOLTew.png)
+
+- The formula for Inverse Document Frequency
+
+![1_b8sxMQwGBH75DQkMPekvCw](https://user-images.githubusercontent.com/71368358/125416201-33cb9b2d-fd1c-4664-a7af-db82f2ee39ed.png)
+
+(source : https://miro.medium.com/max/853/1*b8sxMQwGBH75DQkMPekvCw.png)
+
+After calculate the TF and IDF, we must multiply both of them
