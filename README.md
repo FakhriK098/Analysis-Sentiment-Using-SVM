@@ -58,3 +58,11 @@ The code in this file is use to vectorization the term. This system use Term Fre
 (source : https://miro.medium.com/max/853/1*b8sxMQwGBH75DQkMPekvCw.png)
 
 After calculate the TF and IDF, we must multiply both of them
+
+## Training.py
+
+The code in this file is use to make model of machine learning. Machine learning method that I used is Support Vector Machine
+
+## Testing.py
+
+The code in this file is use to test the model of machine learning and I try to make algorithm that the system can show user the possibility sentiment when user input some sentence but the result is must to try alot
